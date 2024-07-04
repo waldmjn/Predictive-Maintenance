@@ -38,16 +38,15 @@ def main():
     
     # getting the input data from the user
     
-    
-    Air_Temperature = st.text_input('Air temperature (Kelvin)')
-    Process_Temperature = st.text_input('Process temperature (Kelvin)')
+    # Diese Sachen? Type, Rotational speed [rpm],Torque [Nm],Power, Overstrain, Heat Dissipation
+
+    Type = st.text_input('Type (Low = 0, Medium = 1, High = 2)')
     Rotational_Speed = st.text_input('Rotational speed (Rpm)')
     Torque = st.text_input('Torque (Nm)')
-    Tool_Wear = st.text_input('Tool wear (Minutes)')
-    Power_Value = st.text_input('Power Value (Watt)')
-    Overstrain = st.text_input('Overstrain (Minutes/Nm)')
-    Heat_dissipation = st.text_input('Heat dissipation (rpm in Kelvin)')
-    ninth = st.text_input("This is the ninth input")
+    Power = st.text_input('Power Value (Watt)')
+    Overstrain = st.text_input('Overstrain (Min/Nm)')
+    Heat_Dissipation = st.text_input('Heat Dissipation (Rounds per Minute in Kelvin)')
+
     
     # code for Prediction
     diagnosis = ''
@@ -55,7 +54,7 @@ def main():
     # creating a button for Prediction
     
     if st.button('Machine Test Result'):
-        diagnosis = machine_failure([Air_Temperature, Process_Temperature, Rotational_Speed, Torque, Tool_Wear, Power_Value])
+        diagnosis = machine_failure([Type, Rotational_Speed, Torque, Power,Overstrain, Heat_Dissipation])
           
     st.success(diagnosis)
     
