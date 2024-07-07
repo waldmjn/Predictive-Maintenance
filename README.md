@@ -1,11 +1,19 @@
 # Predictive-Maintenance
-Data Exploration Project
+## Installation / Packages
 
-- UID: unique identifier ranging from 1 to 10000
-- productID: consisting of a letter L, M, or H for low (50% of all products), medium (30%), and high (20%) as - - - product quality variants and a variant-specific serial number
-- air temperature [K]: generated using a random walk process later normalized to a standard deviation of 2 K around 300 K
-- process temperature [K]: generated using a random walk process normalized to a standard deviation of 1 K, added to the air temperature plus 10 K.
-- rotational speed [rpm]: calculated from powepower of 2860 W, overlaid with a normally distributed noise
-- torque [Nm]: torque values are normally distributed around 40 Nm with an Ïƒ = 10 Nm and no negative values.
-- tool wear [min]: The quality variants H/M/L add 5/3/2 minutes of tool wear to the used tool in the process. 
+Die Anforderungen zur Ausführung des Notebooks umfassen die Installation und den Import der folgenden Bibliotheken:
 
+- NumPy: pip install numpy
+- Pandas: pip install pandas
+- Matplotlib: pip install matplotlib
+- Scikit-learn: pip install scikit-learn
+- Imbalanced-learn: pip install imbalanced-learn
+- Seaborn: pip install seaborn
+
+Command: pip install pandas numpy seaborn matplotlib scikit-learn
+
+Der Datensatz beinhaltet sich unter dem Reiter Data und muss nur in dem jeweiligen Verzeichnis im Code ersetzt werden.
+
+Teilnehmerliste: Finn Münstermann(3071508), Jan Waldmann (7952189), Lars Lönnen (1412338)
+
+Der Code kann simpel über die Jupyter Notebooks ausgeführt werden, es sind alle Importe enthalten.
