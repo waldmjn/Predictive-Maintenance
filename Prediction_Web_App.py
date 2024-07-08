@@ -3,7 +3,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-
+# Vorher Streamlit installieren https://docs.streamlit.io/get-started/installation
 # loading the saved model
 loaded_model = pickle.load(open('C:/Uni/Semester 4/Projekt in Machine Learning/Projekt-Git/Predictive-Maintenance/best_model_1', 'rb'))
 
