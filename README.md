@@ -1,7 +1,7 @@
 # Predictive-Maintenance
 ## Installation / Packages
 
-Die Anforderungen zur Ausführung der Dateien umfassen die Installation und den Import der folgenden Bibliotheken:
+The requirements to run the files are the installation of the following packages:
 
 - NumPy: pip install numpy
 - Pandas: pip install pandas
@@ -13,13 +13,12 @@ Die Anforderungen zur Ausführung der Dateien umfassen die Installation und den 
 
 Command: pip install pandas numpy seaborn matplotlib scikit-learn streamlit
 
-Installation validieren:
+Validate installation:
 
 Command: streamlit hello 
 
-Der Datensatz ist in dem Ordner Data und muss nur in dem jeweiligen Verzeichnis im Code ersetzt werden. Außerdem muss der Pfad zum Modell der Web-App ausgetauscht werden.
-Um die Webapp zu starten muss "streamlit run Prediction_Web_App.py" ausgeführt werden.
+## How to start the code
+The Dataset can be found in the "Data" folder where the path has to be swapped to your own in the Jupyter Notebooks.The same has to be done with the path in the Web-App.
+To start the Webapp type the following into your comand line: streamlit run "Prediction_Web_App.py"
 
-Teilnehmerliste: Finn Münstermann(3071508), Jan Waldmann (7952189), Lars Lönnen (1412338)
-
-Der Code kann simpel über die Jupyter Notebooks ausgeführt werden, es sind alle Importe enthalten.
+Members of the Group: Finn Münstermann(3071508), Jan Waldmann (7952189), Lars Lönnen (1412338)
