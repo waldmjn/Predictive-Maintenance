@@ -9,13 +9,24 @@ This Notebook is used to inspect, clean and analyse our Dataset. This will be ac
 - Using visualizations to understand the data further
 
 ### DataModells
-After anylsing our data we can now move on to develope and evaluate ML models.
-This is used to use the chosen modells and find out which one performs the best on our Dataset.
-We achieve this by using resampling techniques and hyperparameter tuning.
-In the end we extract the best performing modell using pickle which we will be using for the Webapp.
+After the data has been cleaned we can move on to out ML models. We proceeded in these steps:
+- Preprocessing the data
+- Implementing and compairing classification algorithms
+- Addressing class imbalances
+- Performing hyperparameter tuning
+- Evaluating model performance
+- Saving best performing model
 
-The last step is the Webapp.
-We simply load our modell onto our website and use user inputs to give out predictions on whether machines can or cant be used in that way.
+### Web Application
+
+In this last step we deploy our best performing model into our web application. This includes:
+- loading the saved model onto the website
+- creating a UI that allows user input
+- Using the model to ensure its functions
+
+### Use-Case
+
+Outside of our technical work we put a heavy focus on our use case to make sure our product bring value. 
 
 ## Installation / Packages
 
