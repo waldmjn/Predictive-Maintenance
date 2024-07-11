@@ -38,13 +38,10 @@ The requirements to run the files are the installation of the following packages
 - Scikit-learn: pip install scikit-learn
 - Imbalanced-learn: pip install imbalanced-learn
 - Seaborn: pip install seaborn
-- Streamlit: pip install streamlit
 
-Command: pip install pandas numpy seaborn matplotlib scikit-learn streamlit
+Command: pip install pandas numpy seaborn matplotlib scikit-learn 
 
-Validate installation:
-
-Command: streamlit hello 
+A working Streamlit installation : https://docs.streamlit.io/get-started/installation 
 
 ## How to start the code
 The Dataset can be found in the "Data" folder where the path has to be swapped to your own in the Jupyter Notebooks.The same has to be done with the path in the Web-App.
