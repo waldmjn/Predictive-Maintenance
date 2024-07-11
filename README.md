@@ -41,7 +41,7 @@ The requirements to run the files are the installation of the following packages
 
 Command: pip install pandas numpy seaborn matplotlib scikit-learn 
 
-A working Streamlit installation : https://docs.streamlit.io/get-started/installation 
+And a Streamlit installation for the Web App: https://docs.streamlit.io/get-started/installation 
 
 ## How to start the code
 The Dataset can be found in the "Data" folder where the path has to be swapped to your own in the Jupyter Notebooks.The same has to be done with the path in the Web-App.
