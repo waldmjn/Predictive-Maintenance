@@ -2,7 +2,7 @@
 
 ## Goal of this Project
 The Goal of this project is to create a ML model. This model is then used to classify whether machines can be used in that way or if it would lead to damage.
-Companies can take advantage of this and reduce the wear they have on their machines.
+Companies can take advantage of this to optimize the settings and reduce the wear and while increasing the longevity of their machines.
 
 ## How it works
 
